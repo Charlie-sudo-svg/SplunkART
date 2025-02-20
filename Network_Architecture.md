@@ -5,9 +5,9 @@ All machines are connected via a NAT Network
 ### **Network Architecture**
 | Component         | OS            | Role |
 |------------------|--------------|------|
-| **Domain Controller/Splunk Server** | Windows Server | AD DS, DNS, Sysmon, Splunk Server |
+| **Domain Controller** | Windows Server | AD DS, DNS, Sysmon |
 | **Workstation** | Windows 10 | Test user machine, Sysmon |
-| **"Hacker"** | Kali Linux | Crowbar for brute forcing, Metasploit |
-| **Vulnerable Target** | Windows 7 | Exploited by Metasploit |
+| **SIEM Server** | Ubuntu | Splunk for log analysis |
+| **"Hacker"** | Kali Linux | Crowbar for brute forcing |
 
-![Screenshot 2025-02-19 211615](https://github.com/user-attachments/assets/ba6c2102-4b9a-4f24-a9d3-cf1b2f2ba9c0)
+![Screenshot 2025-02-07 225747](https://github.com/user-attachments/assets/f3041f47-bbab-4f8f-a93f-2f252b74c42e)
